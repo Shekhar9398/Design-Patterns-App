@@ -1,0 +1,17 @@
+
+Builder Pattern in Swift
+------------------------
+- The Builder Pattern helps construct objects step by step.
+- It is useful when an object has many optional parameters.
+- Instead of long initializers, it provides readable method chaining.
+- Example: RequestBuilder builds a URLRequest with headers, method, and body.
+
+Steps:
+1. Create a Builder class with methods to set properties.
+2. Implement a `build()` method to return the final object.
+3. Use method chaining for easier object creation.
+
+Benefits:
+✔ Improves readability.
+✔ Avoids large initializers.
+✔ Ensures immutability (if needed).

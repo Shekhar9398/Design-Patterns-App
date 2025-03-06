@@ -1,0 +1,31 @@
+
+# Singleton Pattern in Swift
+
+## What is a Singleton?
+A **singleton** is a design pattern that ensures a class has only **one instance** and provides a **global point of access** to that instance. It is often used for shared resources like **network managers, database connections, and configuration settings.**
+
+## How It Works
+- A singleton class has a **private initializer** to prevent external instantiation.
+- It exposes a **static shared instance** that is used throughout the application.
+
+## Pros of Singleton:
+- Ensures a single instance of the class across the app.
+- Saves memory by preventing multiple object creations.
+- Useful for managing shared resources, such as database connections and network requests.
+- Improves data consistency by maintaining a single state.
+
+## Cons of Singleton:
+- Can introduce hidden dependencies, making testing harder.
+- Global state may lead to unexpected side effects.
+- Not suitable for instances with different configurations.
+- Difficult to extend as it tightly couples components.
+
+## When to Use a Singleton?
+- When you need a single point of access to a shared resource.
+- When maintaining global state is required.
+- When managing heavy objects like database connections efficiently.
+
+## When to Avoid a Singleton?
+- When different instances are needed with varying states.
+- When working with multithreading, as it can cause race conditions if not implemented properly.
+- When writing unit tests, as it increases dependencies and reduces flexibility.

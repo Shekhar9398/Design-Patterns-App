@@ -14,6 +14,9 @@
 		F422914D2D78999100B6FA16 /* WithoutBuilderPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = F422914C2D78999100B6FA16 /* WithoutBuilderPattern.swift */; };
 		F4320F622D7979F10033DECC /* WithBuilderPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4320F612D7979F10033DECC /* WithBuilderPattern.swift */; };
 		F4320F642D7987E30033DECC /* BuilderPatternNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = F4320F632D7987E30033DECC /* BuilderPatternNotes.txt */; };
+		F4320F682D79A97F0033DECC /* WithoutSingletonPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4320F672D79A97F0033DECC /* WithoutSingletonPattern.swift */; };
+		F4320F6A2D79AEAC0033DECC /* WithSingletonPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4320F692D79AEAC0033DECC /* WithSingletonPattern.swift */; };
+		F4320F6D2D79B1760033DECC /* SingletonPatternNotes in Resources */ = {isa = PBXBuildFile; fileRef = F4320F6C2D79B1760033DECC /* SingletonPatternNotes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		F422914C2D78999100B6FA16 /* WithoutBuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutBuilderPattern.swift; sourceTree = "<group>"; };
 		F4320F612D7979F10033DECC /* WithBuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithBuilderPattern.swift; sourceTree = "<group>"; };
 		F4320F632D7987E30033DECC /* BuilderPatternNotes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = BuilderPatternNotes.txt; sourceTree = "<group>"; };
+		F4320F672D79A97F0033DECC /* WithoutSingletonPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutSingletonPattern.swift; sourceTree = "<group>"; };
+		F4320F692D79AEAC0033DECC /* WithSingletonPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithSingletonPattern.swift; sourceTree = "<group>"; };
+		F4320F6C2D79B1760033DECC /* SingletonPatternNotes */ = {isa = PBXFileReference; lastKnownFileType = text; path = SingletonPatternNotes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 				F422913E2D78998600B6FA16 /* DesignPatternsApp.swift */,
 				F42291402D78998600B6FA16 /* ContentView.swift */,
 				F4320F602D7979C00033DECC /* BuilderPattern */,
+				F4320F662D79A9600033DECC /* SingletonPattern */,
 				F42291422D78998700B6FA16 /* Assets.xcassets */,
 				F42291442D78998700B6FA16 /* Preview Content */,
 			);
@@ -82,6 +89,16 @@
 				F4320F632D7987E30033DECC /* BuilderPatternNotes.txt */,
 			);
 			path = BuilderPattern;
+			sourceTree = "<group>";
+		};
+		F4320F662D79A9600033DECC /* SingletonPattern */ = {
+			isa = PBXGroup;
+			children = (
+				F4320F672D79A97F0033DECC /* WithoutSingletonPattern.swift */,
+				F4320F692D79AEAC0033DECC /* WithSingletonPattern.swift */,
+				F4320F6C2D79B1760033DECC /* SingletonPatternNotes */,
+			);
+			path = SingletonPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4320F6D2D79B1760033DECC /* SingletonPatternNotes in Resources */,
 				F4320F642D7987E30033DECC /* BuilderPatternNotes.txt in Resources */,
 				F42291462D78998700B6FA16 /* Preview Assets.xcassets in Resources */,
 				F42291432D78998700B6FA16 /* Assets.xcassets in Resources */,
@@ -156,6 +174,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F42291412D78998600B6FA16 /* ContentView.swift in Sources */,
+				F4320F6A2D79AEAC0033DECC /* WithSingletonPattern.swift in Sources */,
+				F4320F682D79A97F0033DECC /* WithoutSingletonPattern.swift in Sources */,
 				F4320F622D7979F10033DECC /* WithBuilderPattern.swift in Sources */,
 				F422914D2D78999100B6FA16 /* WithoutBuilderPattern.swift in Sources */,
 				F422913F2D78998600B6FA16 /* DesignPatternsApp.swift in Sources */,

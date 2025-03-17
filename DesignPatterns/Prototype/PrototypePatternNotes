@@ -1,0 +1,23 @@
+
+**Prototype Pattern in Swift**
+
+### **Introduction**
+The **Prototype Pattern** is a creational design pattern used when object creation is expensive or complex. Instead of creating a new object from scratch, it allows cloning an existing object, which can be more efficient.
+
+### **When to Use the Prototype Pattern?**
+- When object creation is expensive or time-consuming.
+- When you need to duplicate objects with slight modifications.
+- When object initialization involves many configurations.
+
+### **Advantages of the Prototype Pattern**
+- Reduces the overhead of object creation.
+- Helps in duplicating objects while preserving their structure.
+- Provides flexibility in modifying cloned instances.
+
+### **Real-World Use Cases**
+- **Game Development:** Cloning characters, enemies, or obstacles.
+- **UI Components:** Duplicating buttons, views, or templates.
+- **Document Editing Apps:** Copying shapes, text boxes, or graphics.
+
+By using the Prototype Pattern, you can optimize object creation and improve performance in Swift applications.
+

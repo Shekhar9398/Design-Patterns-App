@@ -1,0 +1,33 @@
+
+# Factory Pattern in Swift
+
+## What is a Factory Pattern?
+A ** Factory Pattern ** is a design pattern that provides a way to create objects **without specifying their exact class**. It helps encapsulate object creation logic, making the code more flexible and maintainable. It is commonly used in scenarios where multiple related objects need to be instantiated dynamically.
+
+## How It Works
+- A factory pattern defines a **protocol or base class** for objects that need to be created.
+- It uses a **factory class or factory method** to instantiate and return the appropriate object based on input conditions.
+- This pattern **decouples object creation** from the main logic, making it easier to modify and extend.
+
+## Pros of Factory Pattern:
+- Encapsulates object creation logic, improving code maintainability.
+- Reduces dependencies on concrete classes, promoting loose coupling.
+- Makes it easy to introduce new types without modifying existing code.
+- Enhances code readability by organizing object creation in one place.
+
+## Cons of Factory Pattern:
+- Introduces additional complexity with extra factory classes and methods.
+- Can have slight performance overhead due to function calls.
+- May be unnecessary for simple object creation scenarios.
+
+## When to Use a Factory Pattern?
+- When object creation logic is complex and likely to change.
+- When the application needs to support multiple object types dynamically.
+- When decoupling object creation from business logic is beneficial.
+- When centralizing the instantiation process improves code organization.
+
+## When to Avoid a Factory Pattern?
+- When there are only one or two object types, making a factory unnecessary.
+- When direct instantiation is simple and does not add significant overhead.
+- When excessive abstraction leads to unnecessary complexity in the codebase.
+
